@@ -3,6 +3,7 @@ import javax.persistence.*;
 @Entity
 @Table(name="marks")
 public class MarkEntity {
+	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 long id;
 	int mark;
